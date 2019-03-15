@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='certify',
-    version='1.0.0',
+    name='certify-certbot',
+    version='1.0.2',
     packages=find_packages(),
     url='https://github.com/SiLeader/certify',
     license='Apache License 2.0',
@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         "console_scripts": [
-            "certify = certify.certify.main"
+            "certify = certify.certify:main"
         ]
     },
 
